@@ -24,9 +24,83 @@
 							</p>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
 							</p>
-							<a href="#" class="about-us-block-read-more">/a>
+							<a href="#" class="about-us-block-read-more">Read more
+								<span class="button-effecs-ripple">
+									<span class="button-effecs-ripple-animating"></span>
+								</span>
+							</a>
 						</div>
-						<div class="col-md-6 about-us-block-progrees-bar"></div>
+						<div class="col-md-6 about-us-block-progrees-bar">
+							<p>Magento</p>
+							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+									<span>80%</span>
+								</div>
+							</div>
+							<p>WordPress</p>
+							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+									<span>70%</span>
+								</div>
+							</div>
+							<p>Bootstrap</p>
+							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									<span>90%</span>
+								</div>
+							</div>
+							<p>jQuery</p>
+							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+									<span>70%</span>
+								</div>
+							</div>
+							<p>Joomla</p>
+							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+									<span>70%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-3 col-sm-6 text-center">
+							<div class="facts">
+								<div class="facts-icon">
+									<i class="fa fa-flag"></i>
+									<p class="facts-text">project completed</p>
+									<div class="facts-number">1000</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 text-center">
+							<div class="facts">
+								<div class="fa fa-smile-o">
+									<i class="fa fa-flag"></i>
+									<p class="facts-text">happy clients</p>
+									<div class="facts-number">500</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 text-center">
+							<div class="facts">
+								<div class="facts-icon">
+									<i class="fa fa-code"></i>
+									<p class="facts-text">line of code</p>
+									<div class="facts-number">1000.900.9000</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 text-center">
+							<div class="facts last-child">
+								<div class="facts-icon">
+									<i class="fa fa-flag"></i>
+									<p class="facts-text">cup of tea</p>
+									<div class="facts-number">78,815</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<!-- content -->
 				</div>
