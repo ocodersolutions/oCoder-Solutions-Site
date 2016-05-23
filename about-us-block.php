@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<!-- //begin of title -->
-					<!-- content -->
+					<!-- begin of content-row-1 -->
 					<div class="row">
 						<div class="col-md-6">
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
@@ -63,7 +63,8 @@
 							</div>
 						</div>
 					</div>
-					
+					<!--// end of content-row-1 -->
+					<!-- begin of content-row-2 -->
 					<div class="row">
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts">
@@ -102,12 +103,11 @@
 							</div>
 						</div>
 					</div>
-					<!-- content -->
+					<!--// begin of content-row-2 -->
 				</div>
 			<!--// start of card about us -->
 			</div>
 		</div>
 	</div>
-	
 </div>
 <!--// end of about-us-block -->
