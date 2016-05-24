@@ -110,13 +110,12 @@
                     [0, 4],
                     [1600, 1]
                   ],
-				  autoplay:true,
-				  autoplayTimeout:500,
-                  navigation : false,
-                  pagination: true,
-                  //afterAction : syncPosition,
-    			  responsiveRefreshRate : 100,
-    			  slideSpeed : 1000,
+				  navigation : false, 
+			      slideSpeed : 300,
+			      paginationSpeed : 400,
+			      pagination: true,
+	    		  rewindSpeed: 500,
+				  autoPlay : true
 			    
               });
                 
