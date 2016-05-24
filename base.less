@@ -1,6 +1,7 @@
+@color-darkgray: #303030;
 @color-gray: #737373;
 @color-main: #2196F3;
-@font-family: Roboto,Helvetica,Arial,sans-serif;
+@font-family: Roboto, Helvetica, Arial, sans-serif;
 body{
 	color: #737373;
 }
@@ -9,10 +10,49 @@ body{
 				0 3px 1px -2px rgba(0,0,0,.2),
 				0 1px 5px 0 rgba(0,0,0,.12);
 }
-.button{
-	background-color: #2196F3;
-	color: rgb(255,255,255);
-
+.button {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0 16px;
+	height: 36px;
+	min-width: 64px;
+	border: none;
+	border-radius: 2px;
+	background-color: @color-main;
+	font: 300 14px  @font-family;
+	color: #fff;
+	text-decoration: none;
+	line-height: 36px;
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+}
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.button-gray {
+	background-color: rgba(158,158,158,.2);
+	color: #777;
+	box-shadow: none;
+	transition-property: background-color, color;
+	transition-duration: 0.25s;
+}
+.button-gray:hover {
+	background-color: @color-main;
+	color: #fff;
+}
+.button-white {
+	background-color: #fff;
+	color: @color-main;
+}
+.button-white:hover {
+	color: @color-main;
+}
+.button-large {
+	padding: 5px 40px;
+	height: auto;
 }
 div:hover {
 
