@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-12">
 			<!-- start of card about us -->
-				<div class="about-us-block-card">
+				<div class="about-us-block-card default-shadow">
 					<!-- begin of title -->
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 text-center">
@@ -77,8 +77,8 @@
 						</div>
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts">
-								<div class="fa fa-smile-o">
-									<i class="fa fa-flag"></i>
+								<div class="facts-icon">
+									<i class="fa fa-smile-o"></i>
 									<p class="facts-text">happy clients</p>
 									<div class="facts-number">500</div>
 								</div>
