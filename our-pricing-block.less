@@ -1,4 +1,72 @@
 /* === our-pricing-block === */
 @import "base";
 .our-pricing-block {
+	padding: 60px 0 100px;
+	background-color: #fff;
+	h2 {
+		font-weight: 700;
+		line-height: 48px;
+	}
+	p {
+		margin-bottom: 70px;
+	}
+	.button-effecs {
+		padding: 0 27px;
+		background-color: @color-main;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	}
+	.button-effecs:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	.item {
+		display: flex;
+		flex-direction: column;
+		padding-top: 30px;
+		min-height: 200px;
+		border-radius: 2px;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+		transition: .25s;
+	}
+	.title {
+		font: 700 20px @font-family;
+		text-transform: uppercase;
+	}
+	.price {
+		margin: 28px 0 0;
+		padding: 30px 0 15px;
+		background-color: @color-main;
+		color: #fff;
+	}
+	.sign {
+		margin-left: -10px;
+		font: 400 30px @font-family;
+		color: #fff;
+		line-height: 20px;
+	}
+	.amount {
+		font: 700 48px @font-family;
+		color: #fff;
+		line-height: 20px;
+	}
+	.body {
+		margin: 30px 0;
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		li {
+			margin-bottom: 8px;
+			font: 400 14px @font-family;
+			line-height: 24px;
+		}
+	}
+	.bottom {
+		padding: 20px 0;
+		border-top: 1px solid rgba(0,0,0,.1);
+	}
+	.active, .item:hover {
+		box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+	}
 }
