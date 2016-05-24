@@ -15,7 +15,7 @@
 		<link rel="stylesheet/less" type="text/css" href="partnerslide-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="blog-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="contact-block.less" />
-		<link rel="stylesheet/less" type="text/css" href="footer-block.less" />
+		<link rel="stylesheet/less" type="text/css" href="footer.less" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
 			<?php include ('partnerslide-block.php') ?>
 			<?php include ('blog-block.php') ?>
 			<?php include ('contact-block.php') ?>
-			<?php include ('footer-block.php') ?>
+			<?php include ('footer.php') ?>
 		</div>
 	</body>
 </html>
