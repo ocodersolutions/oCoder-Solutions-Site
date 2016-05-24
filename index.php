@@ -1,6 +1,11 @@
 <html>
 	<head>
-		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Vietime</title>
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="menu-block.less" rel="stylesheet/less">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,700,900" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -17,7 +22,7 @@
 			<?php include ('partnerslide-block.php') ?>
 			<?php include ('blog-block.php') ?>
 			<?php include ('contact-block.php') ?>
-			<?php include ('footer-block.php') ?>
+			<?php include ('footer.php') ?>
 		</div>
 	</body>
 </html>
