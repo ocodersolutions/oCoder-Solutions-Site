@@ -123,3 +123,47 @@ p {
   background: rgba(158, 158, 158, 0.2);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
+.portfolio-block {
+  padding: 60px 0 100px;
+  background-color: #fff;
+}
+.portfolio-block h2 {
+  font-weight: 700;
+  line-height: 48px;
+}
+.portfolio-block p {
+  margin-bottom: 70px;
+}
+.portfolio-block .menu {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.portfolio-block .wrap {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+  background-color: #2196F3;
+  list-style: none;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.portfolio-block .menuitem {
+  float: left;
+  margin: 0 17px;
+  padding: 19px 15px;
+  border-bottom: 3px solid transparent;
+  font: 500 13px Roboto, Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 16px;
+  cursor: pointer;
+  transition: .25s;
+}
+.portfolio-block .active,
+.portfolio-block .item:hover {
+  border-bottom: 3px solid #fff;
+}
+.portfolio-block .boxitem {
+  margin-bottom: 30px;
+}

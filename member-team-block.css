@@ -1,73 +1,18 @@
 /* === member-team-block === */
-body {
-  color: #737373;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  line-height: 20px;
-}
-p {
-  font-size: 14px;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  line-height: 22px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0;
-}
-h2 {
-  position: relative;
-  color: #303030;
-  font-size: 28px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 24px 0;
-}
-h2:before {
-  background: #2196F3;
-  width: 50px;
-  position: absolute;
-  bottom: -10px;
-  height: 2px;
-  left: 50%;
-  margin-left: -25px;
-  content: " ";
-}
-.hover-main:hover {
-  box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
-}
-button,
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-weight: 300;
-}
-.default-shadow-container {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-.button-effecs {
+.mdl-button {
+  background: 0 0;
   border: none;
   border-radius: 2px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  border-bottom-left-radius: 2px;
-  color: #FFFFFF;
+  color: #000;
   position: relative;
   height: 36px;
   margin: 0;
   min-width: 64px;
   padding: 0 16px;
   display: inline-block;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0;
   overflow: hidden;
@@ -80,7 +25,7 @@ p {
   line-height: 36px;
   vertical-align: middle;
 }
-.main-card {
+.member-box {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -98,28 +43,152 @@ p {
   border-radius: 2px;
   box-sizing: border-box;
 }
-.ripple {
+.mdl-button__ripple-container {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
   overflow: hidden;
 }
-.ripple-effect {
-  position: absolute;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  background: white;
-  animation: ripple-animation 2s;
+.member-team-block {
+  color: #737373;
+  position: relative;
+  padding: 60px 0 100px;
+  background-color: #fff;
 }
-@keyframes ripple-animation {
-  from {
-    transform: scale(1);
-    opacity: 0.4;
-  }
-  to {
-    transform: scale(100);
-    opacity: 0;
-  }
+.member-team-block .slider-member-content {
+  opacity: 1;
+  display: block;
 }
-.raised {
-  background: rgba(158, 158, 158, 0.2);
+.member-team-block .slider-member-content .teambox {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+}
+.member-team-block .slider-member-content .teambox .mdl-shadow--2dp {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.member-team-block .slider-member-content .teambox .member-box {
+  min-height: 0;
+  width: auto;
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__supporting-text {
+  padding: 0 15px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1rem;
+  line-height: 18px;
+  overflow: hidden;
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__menu {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  right: auto;
+  top: 0;
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__menu button.mdl-button {
+  float: right;
+  color: #fff;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: relative;
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__menu button.mdl-button i {
+  display: block;
+  position: absolute;
+  left: 7px;
+  top: -5px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__menu button.mdl-button .mdl-button__ripple-container {
+  border-radius: 50%;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__menu .mem-button--icon {
+  border-radius: 50%;
+  font-size: 24px;
+  height: 32px;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 32px;
+  width: 32px;
+  padding: 0;
+  overflow: hidden;
+  color: inherit;
+  line-height: normal;
+}
+.member-team-block .slider-member-content .teambox .member-box .member-card__menu .mem-button--icon.mdl-button__ripple-container {
+  border-radius: 50%;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+}
+.member-team-block .slider-member-content .teambox h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #303030;
+  line-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+.member-team-block .slider-member-content .teambox h4 {
+  font-size: 14px;
+  margin-top: 0;
+  padding: 0;
+  line-height: 14px;
+  color: #737373;
+}
+.member-team-block .slider-member-content .teambox .owl-controls {
+  text-align: center;
+  margin-top: 70px;
+}
+.member-team-block .slider-member-content .member-card__title-text {
+  display: block;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  color: inherit;
+  font-size: 24px;
+  font-weight: 300;
+  overflow: hidden;
+  -webkit-transform-origin: 149px 48px;
+  transform-origin: 149px 48px;
+  margin: 0;
+}
+.member-team-block .slider-member-content .member-card__title-text img {
+  width: 100%;
+}
+.member-team-block .mdl-ripple {
+  background: #000;
+  border-radius: 50%;
+  height: 50px;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50px;
+  overflow: hidden;
+}
+.member-team-block .owl-controls {
+  text-align: center;
+  margin-top: 70px;
+}
+.member-team-block .owl-controls .owl-page {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  border: 2px solid #2196F3;
 }
