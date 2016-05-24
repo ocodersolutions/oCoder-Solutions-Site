@@ -57,6 +57,31 @@ body{
 div:hover {
 
 }
-h2{
-	
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+}
+h2 {
+	position: relative;
+	margin: 24px 0;
+	font: 700 28px @font-family;
+	color: @color-darkgray;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+h2::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	margin-left: -25px;
+	height: 2px;
+	width: 50px;
+	background-color: @color-main;
+}
+p {
+	margin-bottom: 70px;
+	font: 300 14px @font-family;
+	color: @color-gray;
+	text-align: center;
+	line-height: 22px;
 }
