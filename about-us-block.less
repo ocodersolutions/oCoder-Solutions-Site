@@ -1,26 +1,5 @@
 /* === about-us-block === */
 @import "base";
-.ripple{
-  overflow:hidden;
-}
-.ripple-effect{
-  position: absolute;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  background: white; 
-  animation: ripple-animation 2s;
-}
-@keyframes ripple-animation {
-    from {
-      transform: scale(1);
-      opacity: 0.4;
-    }
-    to {
-      transform: scale(100);
-      opacity: 0;
-    }
-}
 
 #about{
 	position: relative;
@@ -128,6 +107,7 @@
 			background-color: #2196F3;
 		}
 		& a.raised{
+    		background: rgba(158,158,158,.2);
     		box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 		}
 		& a.button-effecs{
@@ -234,4 +214,12 @@
 			}
 		}
      }
+}
+@media screen and (max-width: 480px){
+	#about{
+		&.main-card{
+	    padding-left: 15px;
+	    padding-right: 15px;
+		}
+	}
 }

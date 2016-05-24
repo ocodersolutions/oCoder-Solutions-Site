@@ -1,4 +1,72 @@
 /* === subscribe-block === */
 @import "base";
-.subscribe-block {
+#subscribe{
+	background-color: rgb(33, 150, 243);
+	padding: 80px 0 100px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	& h2{
+		font-size: 45px;
+		text-transform: uppercase;
+		margin-top: 15px;
+		font-weight: 500;
+	}
+	& h2, p{
+    	color: #fff;
+		margin-bottom: 15px;
+	}
+	#subscribeForm{
+		text-align: center;
+		& .mdl-textfield{
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			position: relative;
+			font-size: 16px;
+			box-sizing: border-box;
+			max-width: 100%;
+			padding: 20px 0;
+			text-align: center;
+		}
+		& .mdl-textfield__input{
+			border-color: #fff;
+			color: #fff;
+			outline: 0;
+			text-align: center;
+			border: none;
+			border-bottom: 1px solid rgba(0,0,0,.12);
+			display: block;
+			font-size: 16px;
+			margin: 0;
+			padding: 4px 0;
+			width: 100%;
+			background: 0 0;
+		}
+		& label{
+			color: #fff;
+			font-weight: 300;
+			margin-bottom: 0;
+			text-align: center;
+		}
+		& .mdl-textfield--floating-label .mdl-textfield__label {
+		    transition-duration: .2s;
+		    transition-timing-function: cubic-bezier(.4,0,.2,1);
+		}
+		& .submit-button{
+			text-align: center;
+			color: @color-main;
+			background-color: #fff;
+		}
+		// .mdl-button__ripple-container{
+		// 	display: block;
+		// 	height: 100%;
+		// 	left: 0;
+		// 	position: absolute;
+		// 	top: 0;
+		// 	width: 100%;
+		// 	z-index: 0;
+		// 	overflow: hidden
+		// }
+	}
 }

@@ -17,11 +17,15 @@
 		<link rel="stylesheet/less" type="text/css" href="blog-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="contact-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="footer.less" />
+		<link rel="stylesheet" href="head_testemonial_tabs.css"/>
+		<link href="owl.carousel.css" media="all" rel="stylesheet" type="text/css"/>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="assets/owl.carousel.min.js" type="text/javascript"></script>
 		<script src="https://use.fontawesome.com/9ee2f6bcf0.js"></script>
-		<script src="assets/animation.js"></script>
+		<script src="assets/animation.js" type="text/javascript"></script>
+
 	</head>
 	<body>
 		<div class="wrapper">

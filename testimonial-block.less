@@ -1,4 +1,22 @@
 /* === testimonial-block === */
 @import "base";
-.testimonial-block {
+// 
+#testimonial:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(48,48,48,.8);
+    z-index: -1;
+    content: " ";
+}
+#testimonial{
+	position: relative;
+	padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-image: url(assets/img/testimonial-bg.jpg);
 }

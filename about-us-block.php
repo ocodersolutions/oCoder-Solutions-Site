@@ -1,10 +1,10 @@
 <!-- about-us-block -->
-<div class="about-us-block">
+<div id="about" class="about-us-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 			<!-- start of card about us -->
-				<div class="about-us-block-card default-shadow">
+				<div class="main-card about-us-block-card default-shadow-container">
 					<!-- begin of title -->
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 text-center">
@@ -24,10 +24,7 @@
 							</p>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
 							</p>
-							<a href="#" class="about-us-block-read-more">Read more
-								<span class="button-effecs-ripple">
-									<span class="button-effecs-ripple-animating"></span>
-								</span>
+							<a href="#" class="about-us-block-read-more raised button-effecs ripple">Read more
 							</a>
 						</div>
 						<div class="col-md-6 about-us-block-progrees-bar">
@@ -70,36 +67,36 @@
 							<div class="facts">
 								<div class="facts-icon">
 									<i class="fa fa-flag"></i>
-									<p class="facts-text">project completed</p>
-									<div class="facts-number">1000</div>
 								</div>
+								<p class="facts-text">project completed</p>
+								<div class="facts-number">1000</div>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts">
 								<div class="facts-icon">
 									<i class="fa fa-smile-o"></i>
-									<p class="facts-text">happy clients</p>
-									<div class="facts-number">500</div>
 								</div>
+								<p class="facts-text">project completed</p>
+								<div class="facts-number">1000</div>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts">
 								<div class="facts-icon">
 									<i class="fa fa-code"></i>
-									<p class="facts-text">line of code</p>
-									<div class="facts-number">1000.900.9000</div>
 								</div>
+								<p class="facts-text">line of code</p>
+								<div class="facts-number">1000.900.9000</div>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts last-child">
 								<div class="facts-icon">
 									<i class="fa fa-flag"></i>
-									<p class="facts-text">cup of tea</p>
-									<div class="facts-number">78,815</div>
 								</div>
+								<p class="facts-text">cup of tea</p>
+								<div class="facts-number">78,815</div>
 							</div>
 						</div>
 					</div>
