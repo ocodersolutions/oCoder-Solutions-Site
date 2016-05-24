@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>oCoderSolution site</title>
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
 		<link rel="stylesheet/less" type="text/css" href="menu-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="slidershow-block.less" />
