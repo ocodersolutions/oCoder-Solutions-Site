@@ -27,7 +27,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-01.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -136,13 +136,19 @@
 		<div></div>
 		<div class="row"></div>
 	</div>
+	
+	<div id="portfolio_detail_01" class="modal fade portfolio_detail" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button class="close" data-dismiss="modal"><span>&times;</span></button>
+				<div style="height:500px;">Content</div>
+			</div>
+		</div>
+	</div>
 </div>
 <script src="assets/js/jquery.filterizr.min.js"></script>
 <script src="assets/js/jquery.directional-hover.min.js"></script>
 <script>
-	function portfolio_block_menu_change(obj) {
-		alert(obj.innerHTML);
-	}
 	window.onload = function() {
 		$('.filtr-container').filterizr({
 			layout: "sameSize"
@@ -152,9 +158,9 @@
 			speed: 350
 		});
 
-		var allmenuitem = document.querySelectorAll(".portfolio-block .menu .menuitem");
-		for(var i=0; i < allmenuitem.length; i++) {
-			allmenuitem[i].addEventListener("click", portfolio_block_menu_change);
-		}
+		$(".portfolio-block .menu .menuitem").click(function() {
+			$(".portfolio-block .menu .menuitem").removeClass("active");
+			$(this).addClass("active");
+		});
 	};
 </script>
