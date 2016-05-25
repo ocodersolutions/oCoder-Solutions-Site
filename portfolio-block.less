@@ -41,6 +41,56 @@
 	}
 	.box {}
 	.boxitem {
-		margin-bottom: 30px;
+		padding-bottom: 30px;
+	}
+	.rounded {
+		border-radius: 2px;
+	}
+	.dh-container {
+		position: relative;
+		overflow: hidden;
+		border-radius: 2px;
+	}
+	.dh-overlay {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: rgba(48,48,48,.8);
+	}
+	.dh-child {
+		position: absolute;
+		top: 50%;
+		margin-top: -28px;
+		width: 100%;
+		text-align: center;
+		.detail {
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+		}
+		.image {
+			cursor: pointer;
+		}
+		.image:hover i {
+			border-color: @color-main;
+			color: @color-main;
+		}
+		i {
+			margin: 0 5px;
+			padding: 16px;
+			border: 2px solid #fff;
+			border-radius: 50%;
+			font-size: 20px;
+			color: #fff;
+			transition: .25s;
+		}
+	}
+	@media (max-width: 479px) {
+		.wrap {
+			display: block;
+		}
+		.menuitem {
+			float: none;
+		}
 	}
 }
