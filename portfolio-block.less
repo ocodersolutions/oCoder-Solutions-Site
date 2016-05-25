@@ -86,6 +86,10 @@
 		}
 	}
 	.portfolio_detail {
+		.modal-dialog {
+			max-width: 726px;
+			width: auto;
+		}
 		.close {
 			position: absolute;
 			top: -10px;
@@ -94,6 +98,92 @@
 			color: #fff;
 			opacity: 1;
 			z-index: 39;
+		}
+		.popup {
+			border-radius: 2px;
+			overflow: hidden;
+		}
+		.popup_image img {
+			width: 100%;
+			border-width: 20px 20px 0;
+			border-style: solid;
+			border-color: #fff;
+		}
+		.popup_text {
+			padding: 20px;
+			width: 90%;
+		}
+		.popup_title {
+			margin: 0 0 15px;
+			padding-right: 36px;
+			font: 500 24px @font-family;
+			color: @color-main;
+			text-transform: uppercase;
+		}
+		.popup_content {
+			margin: 0 0 16px;
+			font: 300 14px @font-family;
+			color: rgba(0,0,0,.54);
+			line-height: 22px;
+		}
+		.popup_action {
+			padding: 8px;
+			border-top: 1px solid rgba(0,0,0,.1);
+		}
+		.popup_action::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.popup_link {
+			float: left;
+			margin-left: 6px;
+		}
+		.popup_link a {
+			display: inline-block;
+			padding: 0 16px;
+			height: 36px;
+			min-width: 64px;
+			border-radius: 2px;
+			background-color: @color-main;
+			font: 300 14px@font-family;
+			color: #fff;
+			text-transform: uppercase;
+			cursor: pointer;
+			line-height: 36px;
+			box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+		}
+		.popup_social {
+			float: right;
+			margin-right: 4px;
+		}
+		.popup_social ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.popup_social li {
+			display: inline-block;
+			line-height: 24px;
+		}
+		.popup_social a {
+			display: inline-block;
+			height: 35px;
+			min-width: 35px;
+			border-radius: 50%;
+			text-align: center;
+			transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+		}
+		.popup_social a:hover {
+			background-color: rgba(158,158,158,.2);
+		}
+		.popup_social a:hover i {
+			color: @color-main;
+		}
+		.popup_social i {
+			font-size: 14px;
+			color: @color-gray;
+			line-height: 36px;
 		}
 	}
 	@media (max-width: 479px) {

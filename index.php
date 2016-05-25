@@ -19,6 +19,7 @@
 		<link rel="stylesheet/less" type="text/css" href="footer.less" />
 		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/head_testemonial_tabs.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>

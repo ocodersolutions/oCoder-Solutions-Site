@@ -38,7 +38,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-02.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -49,7 +49,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-03.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -60,7 +60,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-04.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -71,7 +71,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-05.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-06.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -93,7 +93,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-03.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -104,7 +104,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-04.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -115,7 +115,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-05.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -126,7 +126,7 @@
 					<img class="img-responsive" src="assets/img/portfolio-block-06.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
-							<button class="detail"><i class="fa fa-link"></i></button>
+							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
 							<a class="image"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
@@ -141,13 +141,33 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<button class="close" data-dismiss="modal"><span>&times;</span></button>
-				<div style="height:500px;">Content</div>
+				<div class="popup">
+					<div class="popup_image"><img src="assets/img/portfolio-block-01.jpg" /></div>
+					<div class="popup_text">
+						<h2 class="popup_title">Lorem ipsum sit amet dolor</h2>
+						<p class="popup_content">Estibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia. Estibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia.</p>
+						<p class="popup_content">Estibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia. Estibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia.</p>
+					</div>
+					<div class="popup_action">
+						<div class="popup_link">
+							<a href="#" class="ripple">LIVE PREVIEW</a>
+						</div>
+						<div class="popup_social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <script src="assets/js/jquery.filterizr.min.js"></script>
 <script src="assets/js/jquery.directional-hover.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script>
 	window.onload = function() {
 		$('.filtr-container').filterizr({
