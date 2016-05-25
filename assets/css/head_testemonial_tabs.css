@@ -67,7 +67,7 @@
 
 .uc_head_testemonial .uc_testemonial_wrap .uc_testemonial_content .uc_owl_carousel .uc_item .uc_testemonial_slide .uc_tester_content p.uc_terter_say{
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 36px;
     margin: 0 0 10px;
 }
@@ -161,7 +161,6 @@
     color: #fff;
     margin: 10px 0;
     padding-bottom: 3px;
-    font-family: Pacifico,cursive;
     font-weight: 400;
     line-height: 1.2;
     margin-top: 10px;
