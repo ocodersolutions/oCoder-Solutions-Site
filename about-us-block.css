@@ -131,6 +131,9 @@ p {
   padding: 100px 0;
   background-image: url('assets/img/promo-video.jpg');
 }
+#about a.about-us-block-read-more {
+  background-color: #2196F3;
+}
 #about:before {
   background: rgba(48, 48, 48, 0.8);
   position: absolute;
@@ -221,9 +224,6 @@ p {
   text-align: center;
   line-height: 36px;
   vertical-align: middle;
-}
-.about-us-block .about-us-block-card a.about-us-block-read-more {
-  background-color: #2196F3;
 }
 .about-us-block .about-us-block-card a.raised {
   background: rgba(158, 158, 158, 0.2);
