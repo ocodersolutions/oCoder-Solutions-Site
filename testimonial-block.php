@@ -72,49 +72,52 @@
 					<div class="uc_owl_carousel2" id="uc_carousel_testimonials2">
 						<!-- start of avatar 1 -->
 						<div class="uc_item">
-							<div class="uc_images">
-								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
-							</div>
 							<div class="uc_tester_name">
 								<h4 class="uc_testermonial_name">- Taylor -</h4>
 								<span class="uc_testermonial_position">( Web Desinger )</span>
+							</div>
+							<div class="uc_images">
+								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
 							</div>
 						</div>
 						<!-- end of avatar 1 -->
 
 						<!-- start of avatar 2 -->
 						<div class="uc_item">
-							<div class="uc_images">
-								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
-							</div>
 							<div class="uc_tester_name">
 								<h4 class="uc_testermonial_name">- Taylor -</h4>
 								<span class="uc_testermonial_position">( Web Desinger )</span>
 							</div>
+							<div class="uc_images">
+								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
+							</div>
+							
 						</div>
 						<!-- end of avatar 2 -->
 
 						<!-- start of avatar 3 -->
 						<div class="uc_item">
-							<div class="uc_images">
-								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
-							</div>
 							<div class="uc_tester_name">
 								<h4 class="uc_testermonial_name">- Taylor -</h4>
 								<span class="uc_testermonial_position">( Web Desinger )</span>
 							</div>
+							<div class="uc_images">
+								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
+							</div>
+							
 						</div>
 						<!-- end of avatar 3 -->
 
 						<!-- start of avatar 4 -->
 						<div class="uc_item">
-							<div class="uc_images">
-								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
-							</div>
 							<div class="uc_tester_name">
 								<h4 class="uc_testermonial_name">- Taylor -</h4>
 								<span class="uc_testermonial_position">( Web Desinger )</span>
 							</div>
+							<div class="uc_images">
+								<img src="assets/img/avatar_1.jpg" alt="" class="uc_avatar">
+							</div>
+							
 						</div>
 						<!-- end of avatar 4 -->
 					</div>
@@ -138,6 +141,10 @@
           afterAction : syncPosition,
 		  responsiveRefreshRate : 100,
 		  slideSpeed : 1000,
+		  autoPlay: true,
+		  autoPlaySpeed: 2000,
+		  autoPlayTimeout: 2000,
+		  autoPlayHoverPause: true
 	    
       });
         $('#uc_carousel_testimonials2').owlCarousel({

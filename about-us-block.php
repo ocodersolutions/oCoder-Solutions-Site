@@ -27,7 +27,7 @@
 							<a href="#" class="about-us-block-read-more raised button-effecs ripple">Read more
 							</a>
 						</div>
-						<div class="col-md-6 about-us-block-progrees-bar">
+						<div class="col-md-6 public-progrees-bar">
 							<p>Magento</p>
 							<div class="progress"> 
 								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">

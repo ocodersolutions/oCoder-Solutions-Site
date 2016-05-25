@@ -1,4 +1,120 @@
-/* === testimonial-block === */
+/* === contact-block === */
 @import "base";
-.testimonial-block {
+.mdl-textfield {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 0;
+}
+.contact-form input, .contact-form textarea {
+    border-color: #737373;
+    color: #737373;
+    outline: 0;
+}
+.mdl-textfield__input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 16px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: 0 0;
+    text-align: left;
+    color: inherit;
+	}
+.contact-form input[type=submit] {
+    padding: 0 27px;
+    background-color: #2196F3;
+    color:#fff;
+}
+.contact-block {
+	padding: 80px 0;
+	position:relative;
+	#googleMap {
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+	}
+	.section-title p {
+    margin-bottom: 70px;
+	}
+	.contact-window {
+    background-color: rgba(255,255,255,.9);
+    padding: 40px 0 80px;
+    width: auto;
+    min-height: 0;
+     h2 {
+	    font-size: 18px;
+	    line-height: 18px;
+	    margin-top: 0;
+		}
+	}
+	address {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1;
+    .phone i,.fax i,.email i{
+    	margin-right: 9px;
+	    width: 15px;
+	    text-align: center;
+    	}
+    }
+	.social-links {
+	p { 
+    	margin-bottom: 5px;
+	}
+	ul {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    li{
+	    	display: inline-block;
+	    	a {
+			    border-radius: 50%;
+			    min-width: 35px;
+			    height: 35px;
+			    padding: 0;
+			    color: #737373;
+			}
+	    }
+	}
+    .phone {
+    	margin-bottom: 0;
+    	}
+	.fax, .contact-address .phone {
+	    margin-bottom: 0;
+	}
+	.contact-form .mdl-textfield {
+	    width: 100%;
+		}
+	}
+	.contact-form label {
+    margin-bottom: 0;
+    color: #737373;
+    font-weight: 100;
+	}
+	.mdl-textfield__label {
+    bottom: 0;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 24px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+	}
 }
