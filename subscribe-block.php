@@ -6,28 +6,38 @@
 				<div class="col-md-6 col-md-offset-3 text-center">
 					<h2>Subscribe</h2>
 					<p>To Get Our Newsletter</p>
-				</div>
-					<form action="#" method="post" name="" target="_blank" id="subscribeForm" novalidate="novalidate">
 
-						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded" data-upgraded="">
-							<input type="text" name="EMAIL" class="mdl-textfield__input" id="subscribeFormInput">
-							<label class="mdl-textfield__label" for="subscribeFormInput">
-								Subscribe
+					<form class="frm-main" action="" method="get" accept-charset="utf-8">
+						<div class="subscribe-frame">
+							<input class="subscribe-input" type="text" id="subscribeFormInput" name="email">
+							<label class="subscribe-text" for="subscribeFormInput">
+							Subscribe
 							</label>
 						</div>
-
-						<button type="submit" class="button-effecs ripple raised submit-button"  data-upgraded="">
-								Subscribe
-							<!-- <span class="mdl-button__ripple-container">
-								<span class="mdl-ripple is-animating" style="width: 223.291px; height: 223.291px; transform: translate(-50%, -50%) translate(79px, 11px);">
-									
-								</span>
-							</span> -->
-						</button>
-
+						
+						<button type="submit" class="subscribe-buttom raised button-effecs ripple ">
+							Subscribe
+						</button>		
 					</form>
+				</div>
+					
 			</div>
 		</div>
 	</div>
 	
 </div>
+<script type="text/javascript" charset="utf-8" async defer>
+	$(document).ready(function(){
+
+	
+		$('.subscribe-input').focus(function(){
+			$('.subscribe-text').animate({fontSize: "12px", marginTop: "-50px"},"fast");
+		});
+
+		$('.subscribe-input').focusout(function(){
+			$('.subscribe-text').animate({fontSize: "16px", marginTop: "-25px"},"fast");
+		});
+				
+
+	});
+</script>
