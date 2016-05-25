@@ -1,6 +1,6 @@
 <!-- slidershow-block -->
 <div class="slidershow-block">
-	<div class="headerslider" id="slideshowHeader">
+	<div class="header-items owl-carousel owl-theme" id="slideshowHeader">
         <!--item 1-->
         <div class="slider_item">
             <div class="slider_details">
@@ -16,6 +16,7 @@
 	                                <div class="col-md-6">
 	                                    <!-- Slider Image Start -->
 	                                    <div class="slider-1-img">
+
 	                                        <img src="assets/img/laptop.png" alt="" class="img-responsive img-1">
 	                                        <img src="assets/img/desk.jpg" alt="" class="img-responsive img-2">
 	                                    </div>
@@ -52,14 +53,7 @@
                     <div class="center-header-slider-content">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <!-- Slider Image Start -->
-                                    <div class="slider-1-img">
-                                        <img src="img/header-slider/laptop.png" alt="" class="img-responsive img-1">
-                                        <img src="img/header-slider/desk.jpg" alt="" class="img-responsive img-2">
-                                    </div>
-                                    <!-- Slider Image End -->
-                                </div>
+                                
                                 <div class="col-md-6 slider-1-content-c">
                                     <!-- Slider Content Start -->
                                     <div class="slider-1-content">
@@ -101,8 +95,25 @@
             [0, 1],
             [1600, 1]
           ],
-          navigation : false,
+           afterAction: function(el){
+               //remove class active
+               this
+               .$owlItems
+               .removeClass('active')
+              
+               //add class active
+               this
+               .$owlItems //owl internal $ object containing items
+               .eq(this.currentItem)
+               .addClass('active')
+              
+             },
+          navigation : false, 
+          slideSpeed : 300,
+          paginationSpeed : 400,
           pagination: true,
+          rewindSpeed: 500,
+          autoPlay : true
       });
     });
 </script>
