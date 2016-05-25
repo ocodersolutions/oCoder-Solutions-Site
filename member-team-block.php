@@ -2,7 +2,7 @@
 <div class="member-team-block">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3"> <div class="section-title text-center"> <h2>who we are</h2> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p></div></div>
+			<div class="col-md-6 col-md-offset-3"> <div class="section-title text-center"> <h2 class="tittle">who we are</h2> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p></div></div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
@@ -110,13 +110,12 @@
                     [0, 4],
                     [1600, 1]
                   ],
-				  autoplay:true,
-				  autoplayTimeout:500,
-                  navigation : false,
-                  pagination: true,
-                  //afterAction : syncPosition,
-    			  responsiveRefreshRate : 100,
-    			  slideSpeed : 1000,
+				  navigation : false, 
+			      slideSpeed : 300,
+			      paginationSpeed : 400,
+			      pagination: true,
+	    		  rewindSpeed: 500,
+				  autoPlay : true
 			    
               });
                 

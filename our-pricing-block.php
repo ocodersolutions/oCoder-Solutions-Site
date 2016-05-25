@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center">
-				<h2>our pricing</h2>
+				<h2 class="tittle">our pricing</h2>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 						</ul>
 					</div>
 					<div class="bottom">
-						<a class="button-effecs">buy now</a>
+						<a class="button-effecs ripple" href="#">buy now</a>
 					</div>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 						</ul>
 					</div>
 					<div class="bottom">
-						<a class="button-effecs">buy now</a>
+						<a class="button-effecs ripple" href="#">buy now</a>
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@
 						</ul>
 					</div>
 					<div class="bottom">
-						<a class="button-effecs">buy now</a>
+						<a class="button-effecs ripple" href="#">buy now</a>
 					</div>
 				</div>
 			</div>
@@ -100,7 +100,7 @@
 						</ul>
 					</div>
 					<div class="bottom">
-						<a class="button-effecs">buy now</a>
+						<a class="button-effecs ripple" href="#">buy now</a>
 					</div>
 				</div>
 			</div>

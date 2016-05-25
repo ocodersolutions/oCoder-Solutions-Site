@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center">
-				<h2>OUR SERVICES</h2>
+				<h2 class="tittle">OUR SERVICES</h2>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
 			</div>
 		</div>
@@ -17,7 +17,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
-						<a class="button-effecs" href="#">READ MORE</a>
+						<a class="button-effecs ripple" href="#">READ MORE</a>
 					</div>
 				</div>
 			</div>
@@ -30,7 +30,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
-						<a class="button-effecs" href="#">READ MORE</a>
+						<a class="button-effecs ripple" href="#">READ MORE</a>
 					</div>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
-						<a class="button-effecs" href="#">READ MORE</a>
+						<a class="button-effecs ripple" href="#">READ MORE</a>
 					</div>
 				</div>
 			</div>
@@ -56,14 +56,14 @@
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
-						<a class="button-effecs" href="#">READ MORE</a>
+						<a class="button-effecs ripple" href="#">READ MORE</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<a class="button-effecs viewall" href="#">VIEW ALL SERVICES</a>
+				<a class="button-effecs ripple viewall" href="#">VIEW ALL SERVICES</a>
 			</div>
 		</div>
 	</div>
