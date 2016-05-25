@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>oCoderSolution site</title>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
 		<link rel="stylesheet/less" type="text/css" href="menu-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="slidershow-block.less" />
@@ -19,6 +19,7 @@
 		<link rel="stylesheet/less" type="text/css" href="footer.less" />
 		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/head_testemonial_tabs.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
