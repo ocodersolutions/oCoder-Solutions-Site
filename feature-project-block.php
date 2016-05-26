@@ -15,7 +15,7 @@
 						<h2><a href="#">Lorem ipsum dolor sit amet elit consectetuer</a></h2>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 						<div class="action">
-							<a class="detail" href="#">VIEW DETAILS</a>
+							<a class="detail ripple" href="#">VIEW DETAILS</a>
 							<div><a class="icon" href="#"><i class="fa fa-heart"></i></a></div>
 						</div>
 					</div>
@@ -28,7 +28,7 @@
 						<h2><a href="#">Lorem ipsum dolor sit amet elit consectetuer</a></h2>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 						<div class="action">
-							<a class="detail" href="#">VIEW DETAILS</a>
+							<a class="detail ripple" href="#">VIEW DETAILS</a>
 							<div><a class="icon" href="#"><i class="fa fa-heart"></i></a></div>
 						</div>
 					</div>
@@ -41,7 +41,7 @@
 						<h2><a href="#">Lorem ipsum dolor sit amet elit consectetuer</a></h2>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 						<div class="action">
-							<a class="detail" href="#">VIEW DETAILS</a>
+							<a class="detail ripple" href="#">VIEW DETAILS</a>
 							<div><a class="icon" href="#"><i class="fa fa-heart"></i></a></div>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-12 text-center"><a class="viewall" href="#">View all projects</a></div>
+			<div class="col-md-12 text-center"><a class="viewall ripple" href="#">View all projects</a></div>
 		</div>
 	</div>
 </div>
