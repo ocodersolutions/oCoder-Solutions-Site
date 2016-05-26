@@ -3,8 +3,8 @@
   $(function() {
     
     
-    $('.ripple').on('click', function (event) {
-      event.preventDefault();
+    $('.ripple').on('mousedown', function (event) {
+      //event.preventDefault();
       
       var $div = $('<div/>'),
           btnOffset = $(this).offset(),

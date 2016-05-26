@@ -1,6 +1,7 @@
 /* === subscribe-block === */
 @import "base";
 #subscribe{
+
 	background-color: rgb(33, 150, 243);
 	padding: 80px 0 100px;
 	background-repeat: no-repeat;
@@ -16,57 +17,57 @@
     	color: #fff;
 		margin-bottom: 15px;
 	}
-	#subscribeForm{
+		
+	& form.frm-main {
 		text-align: center;
-		& .mdl-textfield{
-			display: block;
-			margin: 0 auto;
-			width: 100%;
-			position: relative;
-			font-size: 16px;
-			box-sizing: border-box;
-			max-width: 100%;
-			padding: 20px 0;
-			text-align: center;
-		}
-		& .mdl-textfield__input{
+		margin: 0 auto;
+	}
+
+	& label{
+		color: #fff;
+		font-weight: 300;
+		margin-bottom: 0;
+		text-align: center;
+		margin-top: -25px;
+	}
+	& .subscribe-frame{
+		padding: 20px 0;
+		& input.subscribe-input{
+			border: none;
 			border-color: #fff;
 			color: #fff;
 			outline: 0;
-			text-align: center;
-			border: none;
-			border-bottom: 1px solid rgba(0,0,0,.12);
-			display: block;
-			font-size: 16px;
-			margin: 0;
 			padding: 4px 0;
-			width: 100%;
+			text-align: center;
+			display: block;
 			background: 0 0;
+			width: 100%;
+			border: 0;
+			padding: 10px 5px;
+			background: rgba(0,0,0,0) no-repeat;
+			background-image: linear-gradient(to bottom, #FFFFFF, #FFFFFF ), linear-gradient(to bottom, silver, silver);
+			background-size: 0 2px, 100% 1px;
+			background-position: 50% 100%, 50% 100%;
+			transition: background-size 0.15s cubic-bezier(0.64, 0.09, 0.08, 1);
 		}
-		& label{
-			color: #fff;
-			font-weight: 300;
-			margin-bottom: 0;
-			text-align: center;
+		& input:focus{
+			background-size: 100% 2px, 100% 1px;
+			outline: none;
 		}
-		& .mdl-textfield--floating-label .mdl-textfield__label {
-		    transition-duration: .2s;
-		    transition-timing-function: cubic-bezier(.4,0,.2,1);
+
+		& .subscribe-text{
+			font-size: 16px;
 		}
-		& .submit-button{
-			text-align: center;
-			color: @color-main;
-			background-color: #fff;
+
+		& .subscribe-text:hover{
+			cursor: auto;
 		}
-		// .mdl-button__ripple-container{
-		// 	display: block;
-		// 	height: 100%;
-		// 	left: 0;
-		// 	position: absolute;
-		// 	top: 0;
-		// 	width: 100%;
-		// 	z-index: 0;
-		// 	overflow: hidden
-		// }
+
 	}
+
+	& .subscribe-buttom{
+		background-color: #FFFFFF;
+		color: @color-main;
+	}
+
 }

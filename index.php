@@ -20,11 +20,14 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/head_testemonial_tabs.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" media="all"/>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
 		<script src="http://maps.googleapis.com/maps/api/js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+		integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="https://use.fontawesome.com/9ee2f6bcf0.js"></script>
 		<script src="assets/js/animation.js"></script>
 	</head>
