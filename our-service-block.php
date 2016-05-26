@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 item">
-				<div class="text-center default-shadow-container active">
+				<div class="text-center default-shadow-container hover-main">
 					<div class=""><img class="img-responsive" src="assets/img/our-service-02.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-connectdevelop icon"></i>
