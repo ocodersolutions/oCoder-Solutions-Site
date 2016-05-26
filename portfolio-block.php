@@ -21,14 +21,14 @@
 			</div>
 		</div>
 
-		<div class="row filtr-container box">
+		<div class="row filtr-container box magnific_parent">
 			<div class="col-md-4 col-sm-6 col-xs-12 filtr-item boxitem" data-category="1, 2">
 				<div class="dh-container">
 					<img class="img-responsive" src="assets/img/portfolio-block-01.jpg" />
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-01.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-02.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-03.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-04.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -72,7 +72,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-05.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -83,7 +83,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-06.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-03.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -105,7 +105,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-04.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-05.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -127,7 +127,7 @@
 					<div class="dh-overlay">
 						<div class="dh-child">
 							<button class="detail" data-toggle="modal" data-target="#portfolio_detail_01"><i class="fa fa-link"></i></button>
-							<a class="image"><i class="fa fa-search-plus"></i></a>
+							<a class="image magnific_child" href="assets/img/portfolio-block-06.jpg"><i class="fa fa-search-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -176,6 +176,14 @@
 
 		$('.dh-container').directionalHover({
 			speed: 350
+		});
+
+		$('.magnific_parent').magnificPopup({
+			delegate: ".magnific_child",
+			type: "image",
+			gallery: {
+				enabled: true
+			}
 		});
 
 		$(".portfolio-block .menu .menuitem").click(function() {
