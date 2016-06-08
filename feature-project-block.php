@@ -24,7 +24,7 @@
 			<div class="col-md-4">
 				<div class="item">
 					<div class="item_image">
-						<div class="owl-carousel">
+						<div id="project" class="owl-carousel">
 							<div><img src="assets/img/portfolio-block-05.jpg" /></div>
 							<div><img src="assets/img/portfolio-block-02.jpg" /></div>
 							<div><img src="assets/img/portfolio-block-01.jpg" /></div>
@@ -62,8 +62,7 @@
 </div>
 <script>
 	$(document).ready(function(){
-		$("#brand").owlCarousel({
-			//pagination: false,
+		$("#project").owlCarousel({
 			autoPlay: true,
 			itemsCustom: [
 				[0, 1]

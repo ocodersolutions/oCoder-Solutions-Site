@@ -13,7 +13,7 @@
 					<div class=""><img class="img-responsive" src="assets/img/our-service-01.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-500px icon"></i>
-						<h2>Graphic Design</h2>
+						<h2>Web development</h2>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
@@ -39,7 +39,7 @@
 					<div class=""><img class="img-responsive" src="assets/img/our-service-03.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-laptop icon"></i>
-						<h2>Web Design</h2>
+						<h2>Mobile development</h2>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
@@ -52,7 +52,7 @@
 					<div class=""><img class="img-responsive" src="assets/img/our-service-04.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-code icon"></i>
-						<h2>Web Development</h2>
+						<h2>Technical support</h2>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 					<div class="wrap_button">
