@@ -55,9 +55,11 @@
 			</div>
 		</div>
 
+		<!--
 		<div class="row">
 			<div class="col-md-12 text-center"><a class="viewall ripple" href="#">View all projects</a></div>
 		</div>
+		-->
 	</div>
 </div>
 <script>

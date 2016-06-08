@@ -1,6 +1,5 @@
 <!-- portfolio-block -->
-<div class="portfolio-block">
-	<!--
+<div id="portfolio" class="portfolio-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center">
@@ -165,9 +164,7 @@
 			</div>
 		</div>
 	</div>
-	-->
 </div>
-<!--
 <script src="assets/js/jquery.filterizr.min.js"></script>
 <script src="assets/js/jquery.directional-hover.min.js"></script>
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
@@ -195,4 +192,3 @@
 		});
 	};
 </script>
--->

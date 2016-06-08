@@ -43,9 +43,9 @@
 			<?php include ('subscribe-block.php') ?>
 			<?php include ('portfolio-block.php') ?>
 			<?php include ('testimonial-block.php') ?>
-			<?php include ('our-pricing-block.php') ?>
-			<?php include ('partnerslide-block.php') ?>
+			<?php /*include ('our-pricing-block.php')*/ ?>
 			<?php include ('blog-block.php') ?>
+			<?php include ('partnerslide-block.php') ?>
 			<?php include ('contact-block.php') ?>
 			<?php include ('footer.php') ?>
 		</div>

@@ -1,5 +1,5 @@
 <!-- slidershow-block -->
-<div class="slidershow-block">
+<div id="header" class="slidershow-block">
 	<div class="header-items owl-carousel owl-theme" id="slideshowHeader">
         <!--item 1-->
         <div class="slider_item">

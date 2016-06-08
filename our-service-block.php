@@ -1,5 +1,5 @@
 <!-- our-service-block -->
-<div class="our-service-block">
+<div id="services" class="our-service-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center">
@@ -61,10 +61,12 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<a class="button-effecs ripple viewall" href="#">VIEW ALL SERVICES</a>
 			</div>
 		</div>
+		-->
 	</div>
 </div>

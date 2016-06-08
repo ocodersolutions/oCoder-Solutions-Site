@@ -1,12 +1,12 @@
 <!-- member-team-block -->
-<div class="member-team-block">
+<div id="team" class="member-team-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3"> <div class="section-title text-center"> <h2 class="tittle">who we are</h2> <p class="p_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p></div></div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<div id="team" class="owl-carousel">
+				<div id="team_slide" class="owl-carousel">
 					<div class="uc_member_hover_effect">
 						<div class="uc_box_image">
 							<img src="assets/img/team-member-4.png" alt="Michael" />
@@ -119,7 +119,7 @@
 </div>
 <script type="text/javascript">
             $(document).ready(function(){
-	            $('#team').owlCarousel({
+	            $('#team_slide').owlCarousel({
                   itemsCustom : [
                     [0, 1],
                     [321, 2],

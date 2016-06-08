@@ -70,6 +70,7 @@
 					</div>
 					<!--// end of content-row-1 -->
 					<!-- begin of content-row-2 -->
+					<!--
 					<div class="row">
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts">
@@ -108,6 +109,7 @@
 							</div>
 						</div>
 					</div>
+					-->
 					<!--// begin of content-row-2 -->
 				</div>
 			<!--// start of card about us -->
