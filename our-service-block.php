@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="col-md-3 item">
 				<div class="text-center default-shadow-container hover-main">
-					<div class=""><img class="img-responsive" src="assets/img/our-service-01.jpg" alt="" /></div>
+					<div class=""><img class="img_responsive" src="assets/img/our-service-01.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-500px icon"></i>
 						<h2>Web development</h2>
@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-md-3 item">
 				<div class="text-center default-shadow-container hover-main">
-					<div class=""><img class="img-responsive" src="assets/img/our-service-02.jpg" alt="" /></div>
+					<div class=""><img class="img_responsive" src="assets/img/our-service-02.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-connectdevelop icon"></i>
 						<h2>UI/UX Design</h2>
@@ -36,7 +36,7 @@
 			</div>
 			<div class="col-md-3 item">
 				<div class="text-center default-shadow-container hover-main">
-					<div class=""><img class="img-responsive" src="assets/img/our-service-03.jpg" alt="" /></div>
+					<div class=""><img class="img_responsive" src="assets/img/our-service-03.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-laptop icon"></i>
 						<h2>Mobile development</h2>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="col-md-3 item">
 				<div class="text-center default-shadow-container hover-main">
-					<div class=""><img class="img-responsive" src="assets/img/our-service-04.jpg" alt="" /></div>
+					<div class=""><img class="img_responsive" src="assets/img/our-service-04.jpg" alt="" /></div>
 					<div class="wrap_content">
 						<i class="fa fa-code icon"></i>
 						<h2>Technical support</h2>
