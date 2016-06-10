@@ -7,13 +7,13 @@
 				<div class="center-header-slider-content">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6 col-edit">
+							<div class="col-md-6 col-edit hidden-xs hidden-sm">
 								<div class="slider-1-img">
 									<img class="img-responsive img-1" src="assets/img/laptop.png" />
 									<img class="img-responsive img-2" src="assets/img/desk.jpg" />
 								</div>
 							</div>
-							<div class="col-md-6 col-edit slider-1-content-c">
+							<div class="col-md-6 col-edit">
 								<div class="slider-content slider-move-1">
 									<h2>Lorem ipsum dolor</h2>
 									<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
