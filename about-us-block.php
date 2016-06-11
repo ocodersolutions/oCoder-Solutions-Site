@@ -24,36 +24,44 @@
 							</p>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
 							</p>
+							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+							</p>
 							<a href="#" class="about-us-block-read-more raised button-effecs ripple">Read more
 							</a>
 						</div>
 						<div class="col-md-6 public-progrees-bar">
-							<p>Magento</p>
+							<p>Wordpress</p>
 							<div class="progress"> 
 								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
 									<span>80%</span>
 								</div>
 							</div>
-							<p>WordPress</p>
+							<p>Android</p>
 							<div class="progress"> 
 								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
 									<span>70%</span>
 								</div>
 							</div>
-							<p>Bootstrap</p>
+							<p>Joomla</p>
 							<div class="progress"> 
 								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
 									<span>90%</span>
 								</div>
 							</div>
-							<p>jQuery</p>
+							<p>Bootstrap &amp; Jquery</p>
 							<div class="progress"> 
 								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:70%">
 									<span>70%</span>
 								</div>
 							</div>
-							<p>Joomla</p>
+							<p>Zend framework 2</p>
 							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+									<span>70%</span>
+								</div>
+							</div>
+							<p>Laravel</p>
+							<div class="progress">
 								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:70%">
 									<span>70%</span>
 								</div>
@@ -62,6 +70,7 @@
 					</div>
 					<!--// end of content-row-1 -->
 					<!-- begin of content-row-2 -->
+					<!--
 					<div class="row">
 						<div class="col-md-3 col-sm-6 text-center">
 							<div class="facts">
@@ -100,6 +109,7 @@
 							</div>
 						</div>
 					</div>
+					-->
 					<!--// begin of content-row-2 -->
 				</div>
 			<!--// start of card about us -->

@@ -1,5 +1,5 @@
 <!-- portfolio-block -->
-<div class="portfolio-block">
+<div id="portfolio" class="portfolio-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center">
@@ -12,10 +12,10 @@
 				<div class="menu">
 					<ul class="wrap">
 						<li class="menuitem active" data-filter="all">all</li>
-						<li class="menuitem" data-filter="1">graphic design</li>
+						<li class="menuitem" data-filter="1">web development</li>
 						<li class="menuitem" data-filter="2">ui/ux design</li>
-						<li class="menuitem" data-filter="3">web development</li>
-						<li class="menuitem" data-filter="4">wordpress development</li>
+						<li class="menuitem" data-filter="3">mobile development</li>
+						<li class="menuitem" data-filter="4">technical support</li>
 					</ul>
 				</div>
 			</div>

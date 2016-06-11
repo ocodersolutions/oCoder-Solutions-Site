@@ -1,5 +1,5 @@
 <!-- blog-block -->
-<div class="blog-block">
+<div id="blog" class="blog-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 ">

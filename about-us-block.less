@@ -56,6 +56,9 @@
 		width: auto;
 		padding: 60px 80px 80px;
 		font-size: 16px;
+		@media (max-width: 479px) {
+			padding: 60px 15px 80px;
+		}
 
 		& .about-us-block-title p{
     	margin-bottom: 70px;
@@ -144,7 +147,7 @@
     & .public-progrees-bar{
     	& .progress{
     		height: 4px;
-    		overflow: visible;	
+    		overflow: visible;
     	}
     	
     	& p{
@@ -164,6 +167,9 @@
 				padding: 5px;
 				box-shadow: 0 2px 4.7px .3px rgba(0,0,0,.24)
     		}
+    	}
+    	@media (max-width: 991px) {
+    		margin-top: 80px;
     	}
     }
     & .facts{

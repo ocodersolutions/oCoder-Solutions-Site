@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<div class="item active">
+				<div class="item">
 					<div class="top">
 						<div class="title"><span>Standard Plan</span></div>
 						<div class="price">

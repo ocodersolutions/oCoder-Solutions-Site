@@ -1,5 +1,5 @@
 <!-- contact-block -->
-<div class="contact-block">
+<div id="contact" class="contact-block">
 	<div id="googleMap" style="overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);"></div>
 	<div class="contact-window mdl-card mdl-shadow--24dp">
             <div class="container">

@@ -17,6 +17,7 @@
 		<link rel="stylesheet/less" type="text/css" href="blog-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="contact-block.less" />
 		<link rel="stylesheet/less" type="text/css" href="footer.less" />
+		<link rel="stylesheet" type="text/css" href="assets/css/team_member_hover_effect.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/head_testemonial_tabs.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
@@ -42,9 +43,9 @@
 			<?php include ('subscribe-block.php') ?>
 			<?php include ('portfolio-block.php') ?>
 			<?php include ('testimonial-block.php') ?>
-			<?php include ('our-pricing-block.php') ?>
-			<?php include ('partnerslide-block.php') ?>
+			<?php /*include ('our-pricing-block.php')*/ ?>
 			<?php include ('blog-block.php') ?>
+			<?php include ('partnerslide-block.php') ?>
 			<?php include ('contact-block.php') ?>
 			<?php include ('footer.php') ?>
 		</div>

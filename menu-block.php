@@ -2,8 +2,14 @@
 <nav id="topnav" class=" menu-block navbar">
 		<div class="container">
             <div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnavbar" aria-expanded="false">
+            		<span class="sr-only">Toggle navigation</span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            	</button>
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="index.html">Ocorder</a>
+                <a class="navbar-brand" href="index.html">Ocoder</a>
                 <!-- Logo End -->
             </div>
             <div id="topnavbar" class="navbar-collapse collapse ">
@@ -14,7 +20,7 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#testimonial">Testimoinal</a></li>
-                    <li><a href="#pricingTable">Pricing</a></li>
+                    <!--<li><a href="#pricingTable">Pricing</a></li>-->
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><button class="mdl-button"><i class="fa fa-bars"></i></button></li>

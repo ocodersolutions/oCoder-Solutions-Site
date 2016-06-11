@@ -1,5 +1,5 @@
 /* === member-team-block === */
-
+@import "base";
 .mdl-button {
     background: 0 0;
     border: none;
@@ -26,7 +26,6 @@
     line-height: 36px;
     vertical-align: middle;
 }
-
 .member-box {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -56,177 +55,20 @@
     z-index: 0;
     overflow: hidden;
 }
-
-
 .member-team-block {
 	color: #737373;
     position: relative;
     padding: 60px 0 100px;
     background-color: #fff;
-	 .slider-member-content{
-	    opacity: 1;
-    	display: block;
-    	 .teambox{
-    		padding-left: 15px;
-		    padding-right: 15px;
-		    padding-bottom: 3px;
-		    .mdl-shadow--2dp {
-			    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-			}
-		     .member-box{
-		    	min-height: 0;
-    			width: auto;
-    			
-
-    			.member-card__supporting-text{
-    				padding: 0 15px;
-    				width: 100%;
-    				color: rgba(0,0,0,.54);
-				    font-size: 1rem;
-				    line-height: 18px;
-				    overflow: hidden;
-    			}
-    			 .member-card__menu{
-    			    position: absolute;
-    				left: 0;
-				    width: 100%;
-				    right: auto;
-				    top: 0;
-				     button.mdl-button {
-				    	float: right;
-					    color: #fff;
-					    -webkit-transform: rotate(-90deg);
-					    -ms-transform: rotate(-90deg);
-					    transform: rotate(-90deg);
-					    position: relative;
-					     i{
-					    	display: block;
-						    position: absolute;
-						    left: 7px;
-						    top: -5px;
-						    font-size: 22px;
-						    font-style: normal;
-						    font-weight: 500;
-					    }
-					     .mdl-button__ripple-container{
-					    	border-radius:50%;
-					    	-webkit-mask-image: -webkit-radial-gradient(circle,white,black);
-					    }
-				    }
-				    .mem-button--icon {
-					    border-radius: 50%;
-					    font-size: 24px;
-					    height: 32px;
-					    margin-left: 0;
-					    margin-right: 0;
-					    min-width: 32px;
-					    width: 32px;
-					    padding: 0;
-					    overflow: hidden;
-					    color: inherit;
-					    line-height: normal;
-					    &.mdl-button__ripple-container {
-						    border-radius: 50%;
-						    -webkit-mask-image: -webkit-radial-gradient(circle,white,black);
-						}
-					}
-					.mdl-menu__container {
-						position: relative;
-					    left: 0;
-					    width: 90%;
-					    margin: 0 auto;
-					    right: 0px;
-					    top: 32px;
-					    height: 245px;
-					    visibility:hidden;
-					    
-						.progrees-bar-box{
-							width: 100%!important;
-    						padding: 15px;
-    						position: absolute;
-						    top: 0px;
-    						height: auto;
-						    min-width: 124px;
-					        opacity: 1;
-						}
-					}
-					.is-open {
-						    z-index: 999;
-						    visibility: visible;
-						    .mdl-menu__outline {
-							    opacity: 1;
-							    -webkit-transform: scale(1);
-							    transform: scale(1);
-							    z-index: 999;
-							}
-							.progrees-bar-box {
-							    opacity: 1;
-    							z-index: 999;
-							}
-						}
-					.inner-menu__outline {
-					    width: 100%;
-					    background: #fff;
-					    border-radius: 2px;
-					    
-					}
-    			}
-
-		    }
-		     h2{
-		    	font-size: 18px;
-			    font-weight: 500;
-			    color: #303030;
-			    line-height: 18px;
-			    margin-top: 15px;
-			    margin-bottom: 8px;
-			    text-transform: uppercase;
-			    -webkit-transition: .25s;
-			    transition: .25s;
-		    }
-		    h4 {
-		    	font-size: 14px;
-			    margin-top: 0;
-			    padding: 0;
-			    line-height: 14px;
-			    color: #737373;
-		    }
-		     .owl-controls {
-			    text-align: center;
-			    margin-top: 70px;
-			}
+    .p_content {
+		margin-bottom: 70px;
+    }
+    .team_item {
+    	padding: 3px 15px;
+    }
+    .uc_member_hover_effect .uc_content {
+    	@media (max-width: 767px) {
+    		display: none;
     	}
-    	 .member-card__title-text{
-    	    display: block;
-    		-webkit-align-self: flex-end;
-		    -ms-flex-item-align: end;
-		    align-self: flex-end;
-		    color: inherit;
-		    font-size: 24px;
-		    font-weight: 300;
-		    overflow: hidden;
-		    -webkit-transform-origin: 149px 48px;
-		    transform-origin: 149px 48px;
-		    margin: 0;
-		    & img {
-		    	width:100%;
-		    }
-    	}
-	}
-	 .mdl-ripple{
-		background: #000;
-	    border-radius: 50%;
-	    height: 50px;
-	    left: 0;
-	    opacity: 0;
-	    pointer-events: none;
-	    position: absolute;
-	    top: 0;
-	    -webkit-transform: translate(-50%,-50%);
-	    transform: translate(-50%,-50%);
-	    width: 50px;
-	    overflow: hidden;
-	}
-	
-
+    }
 }
